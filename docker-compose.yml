@@ -1,0 +1,6 @@
+services:
+  httpd:
+    extends:
+      file: docker-compose-httpd.yml
+      service: httpd
+    restart: unless-stopped
